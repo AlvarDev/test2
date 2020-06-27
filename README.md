@@ -3,8 +3,9 @@ This is a demo
 
 gunicorn -b 0.0.0.0:8080 main:app
 
-
+```shell
 curl -X POST \
     http://localhost:8080/echo \
     -H 'Content-Type: application/json' \
     -d '{"name": "AlvarDev"}'
+```
