@@ -9,3 +9,10 @@ curl -X POST \
     -H 'Content-Type: application/json' \
     -d '{"name": "AlvarDev"}'
 ```
+
+```shell
+curl -X POST \
+    https://my-service-tbcpnuln2q-ue.a.run.app/echo \
+    -H 'Content-Type: application/json' \
+    -d '{"name": "AlvarDev"}'
+```
